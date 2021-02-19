@@ -23,7 +23,6 @@ let correctAnswers = [
   [ '3' ]
 ]
 let candidateAnswers = [ ];
-let score;
 
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //
@@ -68,8 +67,11 @@ function gradeQuiz(candidateAnswers) {
     console.log(`The correct answer is: ${correctAnswers[i]}`);
   }
 
+// Kept the same for the program -- Is the percent grade as a integer
   let grade;
-  
+// Added 'score' to hold the points correct
+  let score;
+
   let str1 = "";
   let str2 = "";
   score = 0;
