@@ -17,11 +17,11 @@ let questions = [
 ];
 
 let correctAnswers = [
-  [ 'Sally Ride' ],
-  [ 'true' ],
-  [ '40' ],
-  [ 'Trajectory' ],
-  [ '3' ]
+  [ "Sally Ride" ],
+  [ "true" ],
+  [ "40" ],
+  [ "Trajectory" ],
+  [ "3" ]
 ]
 let candidateAnswers = [ ];
 
