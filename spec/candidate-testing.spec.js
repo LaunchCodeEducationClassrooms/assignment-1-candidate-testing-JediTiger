@@ -48,7 +48,7 @@ describe("Candidate Testing solution", function() {
   // correctAnswers tests //
 	it("correctAnswers contains 5 answers", function() {
 		expect(solution.correctAnswers.length).toBe(5);
-	}); 
+	});
 
   it("correctAnswers gives the correct answers", function() {
 		expect(solution.correctAnswers).toContain("Sally Ride");
